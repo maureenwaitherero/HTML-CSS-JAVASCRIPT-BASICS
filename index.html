@@ -5,39 +5,85 @@
 <body>
 
 <!-- embedding javascript into webpage -->
+
 <script type="text/javascript">
-// printing in javasript
 
-document.write("hi");
 
-// Declaring a variable in javascript
-var x;
-// assigning value to a variable in js
-x= 23;
-// string variable
-var y = " ham ";
-// print both variables
+	// printing in javasript use document.write("what you want to print")
 
- document.write( x + y );
+	document.write("hi");
 
- // create a function 
- // include parameters in the function
- function alert1 (z){
- 	// create an alert box 
- 	alert(" BAMM!" + z);
- }
- // call a function with 2 diferent parameters
+	// Declaring a variable i.e. x in javascript
 
- alert1 ("Bacon");
- alert1("pork");
+	var x;
+
+	// assigning value to a variable in javascript
+
+	x= 23;
+
+	// string variable
+
+	var y = " ham ";
+
+	// print both variables use the +
+
+	 document.write( x + y );
+
+		 // create a function i.e. alert1
+
+		 // include a parameter in the function i.e. z
+
+		 function alert1 (z){
+
+		 	// create an alert box 
+
+		 	alert1(" BAMM!" + "z");
+		 }
+
+		 // call a function with 1  parameter
+
+		 alert1 ("Bacon");
+		 alert1("pork");
+
+
+
+		 // create a new function with multiple parameters
+
+			function vegies ( one two) {
+
+			document.write(one + "are better than" + two +"<br/>");
+
+
+		}
+		 // call a function with multiple parameters
+
+			vegies("carrots", "cabbages");
+
+
+		/*Return statement in javascript!
+		create a function that returns a value */
+		function addition ( num1 num2){
+			var total = num1 + num2 ;
+			 return total; 
+
+		}
+
+		document.write( addition( 4 ,3));
+		
+
+
+		
 
 </script>
 
 <!-- create a form that calls a  javascript function-->
 
 <form>
-	<input type="button" value="click me" onclick= "alert1()">
+	<input type="button" value="click me" onclick= "alert()">
 </form>
+
+
+
 
 </body>
 </html>
