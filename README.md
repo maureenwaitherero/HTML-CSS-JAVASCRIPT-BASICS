@@ -1,2 +1,2 @@
-# HTML-CSS-JAVASCRIPT-BASICS
-Basics of HTML,CSS and Javascript
+# JAVASCRIPT-BASICS
+Javascript basics
